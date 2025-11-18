@@ -1,0 +1,246 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+nav, h1, h2, ul {
+  font-family: "MedievalSharp", cursive !important;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+    color: #C41E3A;
+    text-decoration: underline;
+}
+
+body {
+	  font-family: "Stack Sans Text", sans-serif;
+	  font-optical-sizing: auto;
+	  font-weight: <weight>;
+	  font-style: normal;
+	  background-color: black;
+	  background-image: url(images/back.png);
+	  background-repeat: yes;
+}
+
+body  {
+	color: #FFFFFF !important;
+}
+
+body {
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+h1 {
+		color: #FFFFFF;
+		text-transform: uppercase;
+ 		border: 6px double #C41E3A;
+  		padding-top: 20px;
+  		padding-bottom: 20px;
+ 		margin: 30px;
+ 		margin-top: 30px;
+ 		margin-bottom:30px;
+ 		text-align: center;
+	}
+
+body, :hover, :active, :focus {
+    cursor: url(images/CR.png), auto !important;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    float: left;
+    padding-right: var(--bs-breadcrumb-item-padding-x);
+    color: #FFFFFF;
+    content: var(--bs-breadcrumb-divider, "/");
+}
+
+.breadcrumb-item.active {
+    color: #FFFFFF;
+}
+
+.back {
+	background-color: #000000;
+  	padding-top: 10px;
+  	padding-bottom: 10px;
+  	padding-left: 10px;
+  	padding right: 10px;
+ 	margin: 10px;
+ 	margin-top: 10px;
+ 	margin-bottom:10px;
+}
+
+.py-5 {
+    padding-top: 0 !important;
+    padding-bottom: 2rem !important;
+}
+
+.bullet {
+	font-family: "Stack Sans Text", sans-serif;
+	  font-optical-sizing: auto;
+	  font-weight: <weight>;
+	  font-style: normal;
+}
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+
+.carousel { 
+	padding-bottom: 4rem; 
+}
+
+.navbar-brand {
+    padding-top: var(--bs-navbar-brand-padding-y);
+    padding-bottom: var(--bs-navbar-brand-padding-y);
+    margin-right: var(--bs-navbar-brand-margin-end);
+    font-size: var(--bs-navbar-brand-font-size);
+    color: #FFFFFF;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #FFFFFF;
+}
+
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: #FFFFFF;
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: #C41E3A !important;
+}
+
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: #000000 !important;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #C41E3A;
+    --bs-btn-border-color: #C41E3A;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #C41E3A;
+    --bs-btn-hover-border-color: #C41E3A;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #000000;
+    --bs-btn-active-bg: #000000;
+    --bs-btn-active-border-color: #C41E3A;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+}
+
+.timeline-container {
+	margin: 60px auto;
+	max-width: 1100px;
+	text-align: center;
+}
+
+.timeline-line {
+	height: 6px;
+	background: #C41E3A;
+	position: relative;
+	margin: 40px 0 60px;
+}
+
+.timeline-item {
+	display: inline-block;
+	width: 14%;
+	vertical-align: top;
+	position: relative;
+}
+
+.timeline-circle {
+	width: 26px;
+	height: 26px;
+	border-radius: 50%;
+	background: #fff;
+	border: 5px solid #C41E3A;
+	position: absolute;
+	top: -48px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.timeline-circle:hover {
+    background: #C41E3A;
+    border-color: #FFFFFF;
+    transform: translateX(-50%) scale(1.5);
+    box-shadow: 0 0 10px rgba(196, 30, 58, 0.5);
+    cursor: pointer;
+}
+
+.timeline-year {
+	font-size: 1.3rem;
+	font-family: "Stack Sans Text", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	margin-bottom: 10px;
+}
+
+.timeline-text {
+	font-size: 0.7rem;
+	font-family: "Stack Sans Text", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	color: #FFFFFF;
+	line-height: 1.35rem;
+	margin-top: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.playing-card {
+    width: 150px;
+    position: absolute;
+    left: 0;
+    top: 200px;
+
+    /* Start invisible until animation triggers */
+    opacity: 0;
+
+    animation: throwCard 2.5s ease-out forwards;
+}
+
+/* Throw animation */
+@keyframes throwCard {
+    0% {
+        transform: translateX(0) rotate(0deg) scale(1);
+        opacity: 1;
+    }
+    20% {
+        transform: translateX(300px) rotate(60deg) scale(1.05);
+    }
+    400% {
+        transform: translateX(600px) rotate(120deg) scale(0.9);
+        opacity: 0;
+    }
+    60% {
+        transform: translateX(900px) rotate(180deg) scale(1);
+        opacity: 1;
+    }
+    80% {
+        transform: translateX(1200px) rotate(240deg) scale(1.05);
+    }
+    100% {
+        transform: translateX(1500px) rotate(300deg) scale(0.9);
+        opacity: 0;
+    }
+}
